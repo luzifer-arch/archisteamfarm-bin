@@ -2,7 +2,7 @@
 # Contributor: Baron Hou <houbaron@gmail.com>
 
 pkgname=archisteamfarm-bin
-pkgver=6.1.2.2
+pkgver=6.1.2.3
 pkgrel=1
 pkgdesc="C# application that allows you to farm steam cards using multiple steam accounts simultaneously."
 arch=('x86_64')
@@ -18,7 +18,7 @@ source=(
   "ArchiSteamFarm-bin.desktop"
 )
 
-sha512sums=('d54c45ac2f8923ca71ec1664b4260c2ef18cd68f07695a351a051835fc71946632ad5f266f72bbeeb429d32925dea865c616285189b57383ebe6367fc52fdd87'
+sha512sums=('5e49928142759131b9ca1a223c4e612cc69987c22143773f6ba89fca83d4734de3d0cd1bdd4e216342953cf798e3a66c2a333e5fdf884de70fce9e853773ab9c'
             '32aaead4aacc02c9c60afef74e04cb3a30afc4d76f5e6836a05e672344c7db66cf099849cb2bc9a04454a026f99c9f60d3d7186f4a496d4626fe1a3d40d4ecf6')
 
 prepare() {
